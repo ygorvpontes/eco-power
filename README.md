@@ -93,8 +93,8 @@ Abra um Pull Request.
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
 👨‍💻 Autor
-Seu Nome
-LinkedIn | GitHub
+ Ygor Vieira Pontes
+  GitHub: ygorvpontes
 
 Feito com ❤️ por Ygor Vieira.
 
