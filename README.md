@@ -99,7 +99,3 @@ LinkedIn | GitHub
 Feito com ❤️ por Ygor Vieira.
 
 
----
-
-Agora é só personalizar os detalhes como nome do repositório, URLs do GitHub e LinkedIn, além de adicionar capturas de tela ao diretório `./screenshots` para ilustrar o projeto!
-
