@@ -1,19 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Navbar() {
+const Navbar = () => {
   return (
-    <div className="bg-[#0d233a] text-white p-4 shadow-md">
-      <div className="max-w-7xl mx-auto flex justify-between items-center">
-        <div className="text-3xl font-bold">EcoApp</div>
-        <div className="flex space-x-12 text-lg">
-          <Link to="/" className="hover:text-gray-300">Dashboard</Link>
-          <Link to="/devices" className="hover:text-gray-300">Devices</Link>
-          <Link to="/eco-wallet" className="hover:text-gray-300">Eco Wallet</Link>
-        </div>
-      </div>
-    </div>
+    <nav className="bg-gray-800 text-white p-4">
+      <ul className="flex space-x-4">
+        <li>
+          <Link to="/" className="hover:text-blue-400">Dashboard</Link>
+        </li>
+        <li>
+          <Link to="/devices" className="hover:text-blue-400">Devices</Link>
+        </li>
+        <li>
+          <Link to="/eco-wallet" className="hover:text-blue-400">EcoWallet</Link>
+        </li>
+        <li>
+          <Link to="/energy-consumption" className="hover:text-blue-400">
+            Energy Consumption
+          </Link>
+        </li>
+      </ul>
+    </nav>
   );
-}
+};
 
 export default Navbar;
